@@ -15,7 +15,6 @@ module.exports ={
         .addField("<:birthday:725371290453671986> **Birthday Cake** - __7,000__ coins", "Life's too short to say no to a birthday cake!")
         .addField("<:airplane:725370824353120266> **Private Jet** - __65,620__ coins", "Take the vacation and get a jet that takes you to Hawaii!")
         .addField("<:fries:725370965915205703> **Fries** - __35__ coins", "Happier than a seagull with a French fry!")
-        .addField("<:AspireBadge:725385469181034577> **Aspire Badge** - __35,000__ coins ", "Great Badge to add to your inventory!")
         .addField("<:clapper:725370051183509524> **Movie Clapper** - __900__ coins", "I am big! It's the pictures that got small!")
         message.channel.send(embed).catch(console.error);
     }
