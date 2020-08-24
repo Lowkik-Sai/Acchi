@@ -12,7 +12,7 @@ module.exports = {
         if(!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("I need `Manage Server` permission in order to execute this command!");
         if(!message.guild.me.hasPermission("MANAGE_CHANNELS")) return message.channel.send("I need `Manage Channels` permission in order to execute this command!");
         if(!member) return message.channel.send("Mention a member next time!");
-        if(!ticketsys) return message.channel.send("Run .config ticket before you execute this command!");
+        if(!ticketsys) return message.channel.send("Run c!config ticket before you execute this command!");
         if(message.channel.parentID != ticketsys.cat) return message.channel.send("This isn't part of the ticket system!");
 
         message.channel.updateOverwrite(member, {
