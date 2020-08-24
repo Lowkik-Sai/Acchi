@@ -16,7 +16,6 @@ module.exports = {
         .setColor("#FFFFFF")
         .addField("Wallet", `$${money} coins`)
         .addField("Bank", `$${bank} coins`)
-        .setFooter("aspirerbx.xyz 🤑")
         .setThumbnail(user.avatarURL());
         message.channel.send(embed).catch(console.error);
     }
