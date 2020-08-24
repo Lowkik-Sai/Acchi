@@ -8,10 +8,9 @@ module.exports = {
 
 		let pingEmbed = new Discord.MessageEmbed()
 		  .setColor("GREEN")
-		  .setTitle("**Pong!**")
 		  .addField(
 			"**Results:**",
-			`${new Date().getTime() - message.createdTimestamp}ms.` + '\n' + `${Math.round(client.ws.ping)}ms.`,
+			"Latency: " + `${new Date().getTime() - message.createdTimestamp}ms.` + '\n' + "API Latency: " + `${Math.round(client.ws.ping)}ms.`,
 			false
 		  )
 		  .setFooter(
