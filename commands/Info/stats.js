@@ -22,7 +22,7 @@ module.exports = {
 
 
 		const statsResults = new Discord.MessageEmbed()
-			.setTitle("<:antenna:726559912255291532> Bot status <:antenna:726559912255291532>")
+			.setTitle("Bot status")
 			.addFields({
 				name: '**Servers:**',
 				value: `${client.guilds.cache.size}`,
