@@ -1,6 +1,6 @@
 {
   "name": "Acchy",
-  "version": "2.0",
+  "version": "1.2.4",
   "description": "One of Chitanda's inventions",
   "main": "discord-bot.js",
   "dependencies": {
