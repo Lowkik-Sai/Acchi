@@ -15,7 +15,7 @@ module.exports = {
 				format: 'png'
 			}))
 			.addField("**List Of Commands:**", "**In this embed, you can see all the available commands usable so far...!**", false)
-			.addField("**[12] General:**", "\`serverstats\`,\`stats\`,\`userinfo\`,\`ping\`,\`announce\`,\`poll\`,\`suggest\`,\ `weather\`,\`covidstats\`,\`hex\`,\`avatar\`,\`morse\`", false)
+			.addField("**[11] General:**", "\`serverstats\`,\`stats\`,\`userinfo\`,\`ping\`,\`announce\`,\`poll\`,\`weather\`,\`covidstats\`,\`hex\`,\`avatar\`,\`morse\`", false)
 			.addField("**[17] Moderation:**", "\`ban\`,\`purge\`,\`kick\`,\`mute\`,\`unban\`,\`nuke\`,\`warn\`,\`tempban\`,\`unmute\`,\`lockdownall\`,\`clearwarns\`,\`warns\`,\`lockdown\`,\`unlockall\`,\`unlock\`,\`addrole\`,\`removerole\`", false)
 			.addField("**[11] Fun:**", "\`cat\`,\`dog\`,\`meme\`,\`bird\`,\`koala\`,\`koalafact\`,\`dogfact\`,\`catfact\`,\`birdfact\`,\`fox\`,\`foxfact\`", false)
 			.addField("**[5] Configuration: ``c!config <module>``**", "\`anti-spam\`,\`badwords\`,\`auto-role\`,\`anti-raid\`,\`ticket\`", false)
