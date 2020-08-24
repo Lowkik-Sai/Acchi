@@ -13,7 +13,7 @@ module.exports = {
         if(!member) return syntax(client, message);
         db.set(`${message.guild.id}.cases`, current.filter((d) => d.ID != member.id));
         let embed = new Discord.MessageEmbed();
-         embed.setDescription(`Successfully <:TickGreen:715595196032745643> cleared all warnings from ${args.join(' ')}`);
+         embed.setDescription(`Successfully cleared all warnings from ${args.join(' ')}`);
          embed.setColor(`#f7c203`)
          embed.setFooter(`Executed by ${message.author.tag}`, message.author.displayAvatarURL());
          return message.channel.send({embed: embed});
