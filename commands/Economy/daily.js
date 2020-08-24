@@ -14,7 +14,10 @@ module.exports = {
 
         if (daily != null && timeout - (Date.now() - daily) > 0) {
             let time = ms(timeout - (Date.now() - daily));
-            message.channel.send(`You've already collected your daily reward\n\nCollect it again in ${time.hours}h ${time.minutes}m ${time.seconds}s`).catch(console.error);
+            let claimed = new MessageEmbed()
+            .setAuthor(`${message.author.username}`, message.author.displayAvatarURL())
+            .setDescription(`You've already collected your daily reward\n\nCollect it again in ${time.hours}h ${time.minutes}m ${time.seconds}s`)
+            message.channel.send(claimed).catch(console.error);
         } else {
             let embed = new MessageEmbed()
             .setAuthor(`${message.author.username}`, message.author.displayAvatarURL())
@@ -27,7 +30,7 @@ module.exports = {
 			}))
 			.setTimestamp()
             message.channel.send(embed).catch(console.error);
-            db.add(`${message.author.id}.money`, 500)
+            db.add(`${message.author.id}.money`, 250)
             db.set(`${message.author.id}.daily`, Date.now())
         }
     }
