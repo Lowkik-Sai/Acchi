@@ -51,16 +51,6 @@ module.exports = {
             }
         }
         
-        if(args.join(' ').toLowerCase() == "aspire badge") {
-            if (author < 35000) {
-                message.reply("You need more coins to buy the Birthday Cake!").catch(console.error);
-            } else {
-                db.subtract(`money_${message.author.id}`, 35000);
-                db.push(`${message.author.id}.items`, `Aspire Badge`);
-                message.channel.send("You bought 1x Aspire Badge and earned 5,000 Bonus coins! <:AspireBadge:725385469181034577>").catch(console.error);
-            }
-        }
-        
         if(args.join(' ').toLowerCase() == "birthday cake") {
             if (author < 7000) {
                 message.reply("You need more coins to buy the Birthday Cake!").catch(console.error);
