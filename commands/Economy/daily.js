@@ -8,7 +8,7 @@ module.exports = {
 
     execute(client, message, args) {
         let timeout = 86400000
-        let amount = 500
+        let amount = 250
         
         let daily = db.fetch(`${message.author.id}.daily`)
 
