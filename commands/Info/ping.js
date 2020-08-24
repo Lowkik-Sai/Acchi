@@ -22,11 +22,6 @@ module.exports = {
 			  format: "png"
 			})
 		  )
-		  .setThumbnail(
-			"https://www.pngrepo.com/png/46748/180/wifi.png"
-		  )
-		  .setTimestamp();
-	
 	   message.channel.send(pingEmbed);
 
     }
