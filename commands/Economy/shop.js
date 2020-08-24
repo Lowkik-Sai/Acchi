@@ -6,7 +6,7 @@ module.exports ={
     execute(client, message, args) {
         let embed = new MessageEmbed()
         .setColor("RANDOM")
-        .setTitle("**__Aspireʀʙx's Shop__**\n• Whoever said that money can't buy happiness simply didn't know where to go shopping!")
+        .setTitle("**__Acchy's Shop__**\n• I specifically love moneys!")
         .addField("<:bowling:725370050776924209> **Bowling Set** - __1,560__ coins", "Bowling is not a sport because you have to rent the shoes!")
         .addField("<:alarm_clock:725371342387413042> **Alarm Clock** - __520__ coins", "The trouble with an alarm clock is that what seems sensible when you set it seems absurd when it goes off!")
         .addField("<:classical_building:725370346542202973> **Mansion** - __75,000__ coins", "The mansion should not be graced by its master, the master should grace the mansion!")
