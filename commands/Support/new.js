@@ -38,7 +38,7 @@ module.exports = {
         
         const embed2 = new Discord.MessageEmbed();
         embed2.setColor("#47ba78");
-        embed2.setDescription(`Thank you for creating a ticket ${message.author}!\n An agent from the Support Team will be with you shortly.`);
+        embed2.setDescription(`Thank you for contacting us ${message.author}!\n Our Support Team will be with you shortly! Please remember that opening a ticket just to mess around with staff is strongly prohibited! It can lead you to a temporary mute!`);
         embed2.setAuthor(`New Ticket`,`${args.join(" ")}`);
         embed2.setFooter(`Ticket ID #${String(chan.position+1).padStart(4, "0")}`);
         embed2.setThumbnail(message.author.displayAvatarURL());
