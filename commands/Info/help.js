@@ -14,7 +14,7 @@ module.exports = {
 				size: 1024,
 				format: 'png'
 			}))
-			.addField("**List Of Commands:**", "**In this embed, you can see all the available commands usable so far...!**", false)
+			.addField("**List Of Commands:**", "**Don't expect too much from a lazy ass like Chitanda#1968**", false)
 			.addField("**[11] General:**", "\`serverstats\`,\`stats\`,\`userinfo\`,\`ping\`,\`announce\`,\`poll\`,\`weather\`,\`covidstats\`,\`hex\`,\`avatar\`,\`morse\`", false)
 			.addField("**[17] Moderation:**", "\`ban\`,\`purge\`,\`kick\`,\`mute\`,\`unban\`,\`nuke\`,\`warn\`,\`tempban\`,\`unmute\`,\`lockdownall\`,\`clearwarns\`,\`warns\`,\`lockdown\`,\`unlockall\`,\`unlock\`,\`addrole\`,\`removerole\`", false)
 			.addField("**[11] Fun:**", "\`cat\`,\`dog\`,\`meme\`,\`bird\`,\`koala\`,\`koalafact\`,\`dogfact\`,\`catfact\`,\`birdfact\`,\`fox\`,\`foxfact\`", false)
