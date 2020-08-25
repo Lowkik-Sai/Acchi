@@ -71,31 +71,31 @@ async function getUserBadgeEmojis(user){
 	return [{
 		name: "DISCORD_EMPLOYEE",
 		display: "Discord Employee",
-		value: "<:DiscordEmployee:708105978499039322>"
+		value: "<:DiscordStaff:747476446922145883>"
 	},{
 		name: "DISCORD_PARTNER",
 		display: "Discord Partner",
-		value: "<:DiscordPartner:708106082320646245>"
+		value: "<:DiscordPartner:747476404433584168>"
 	},{
 		name: "HYPESQUAD_EVENTS",
-		display: "Hypesquad Events",
-		value: "<:HypeSquadEvents:708106190491484201>"
+		display: "HypeSquad Events",
+		value: "<:HypeSquadEvent:747476368391929928>"
 	},{
 		name: "BUGHUNTER_LEVEL_1",
-		display: "Bug Hunter Level 1",
-		value: "<:BugHunterLevel1:708106296347590666>"
+		display: "Bug Hunter Lvl 1",
+		value: "<:BugHunter1:747476209071554738>"
 	},{
 		name: "HOUSE_BRAVERY",
-		display: "HypeSquad House(Bravery)",
-		value: "<:HouseBravery:708106687692800150>"
+		display: "HypeSquad Bravery",
+		value: "<:HypeBravery:747476340244217868>"
 	},{
 		name: "HOUSE_BRILLIANCE",
-		display: "HypeSquad House(Brilliance)",
-		value: "<:HouseBrilliance:708106521761808395>"
+		display: "HypeSquad Brilliance",
+		value: "<:HypeBrilliance:747476246463774820>"
 	},{
 		name: "HOUSE_BALANCE",
-		display: "HypeSquad House(Balance)",
-		value: "<:HouseBalance:708106612363100220>"
+		display: "HypeSquad Balance",
+		value: "<:HypeBalance:747476282979123200>"
 	},{
 		name: "EARLY_SUPPORTER",
 		display: "Early Supporter",
@@ -109,8 +109,8 @@ async function getUserBadgeEmojis(user){
 		value: ""	
 	},{
 		name: "BUGHUNTER_LEVEL_2",
-		display: "Bug Hunter Level 2",
-		value: "<:BugHunterLevel2:708106413431455784>"
+		display: "Bug Hunter Lvl 2",
+		value: "<:BugHunter2:747476165148540988>"
 	},{
 		name: "VERIFIED_BOT",
 		display: "Verified Bot",
@@ -118,7 +118,7 @@ async function getUserBadgeEmojis(user){
 	},{
 		name: "VERIFIED_DEVELOPER",
 		display: "Verified Developer",
-		value: "<:VerifiedBotDeveloper:728669539897966695>"
+		value: "<:VerifiedDeveloper:747476730012368936>"
 	}].filter((d) => flags.find((flag) => flag == d.name));
 
 }
