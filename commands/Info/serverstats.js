@@ -21,7 +21,7 @@ module.exports = {
 		embed.addField("**Server Owner:**", owner.tag, true);
 		embed.addField("**Region:**", `${region.emoji} | ${region.display}`, true);
 		embed.addField("**Server Created At:**", message.guild.createdAt.toLocaleString("en-US", { timeZone: "UTC" }), true);
-		embed.addField("**Boost Tier**", `**${message.guild.premiumTier == 0 ? "None" : message.guild.premiumTier}**`, true);
+		embed.addField("**Boost Tier:**", "<:Boost:747476678665830522>" + `**${message.guild.premiumTier == 0 ? "None" : message.guild.premiumTier}**` + "<:Boost:747476678665830522>", true);
 		embed.addField("**Member Count:**", `**${message.guild.members.cache.filter((m) => !m.bot).size.toLocaleString()}**`, true);
 		embed.addField("**Verification Level:**", `${verification.display}\n${verification.value}`);
 		embed.addField("**Roles:**", data.roles.map((d) => `• ${d.name}: **${d.value}**`).join('\n'));
